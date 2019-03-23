@@ -1,0 +1,6 @@
+POST http://localhost:8080/user/crate
+
+<> 2019-03-23T121122.403.json
+
+###
+
