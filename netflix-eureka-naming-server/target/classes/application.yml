@@ -1,0 +1,14 @@
+
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+  server:
+    wait-time-in-ms-when-sync-empty: 5
+spring:
+  application:
+    name: netflix-eureka-naming-server

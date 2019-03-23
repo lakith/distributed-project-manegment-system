@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="configserver" />
         <module name="itemService" />
+        <module name="netflixeurekanamingserver" />
         <module name="userservice" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="itemService" target="1.8" />
       <module name="itemsharing" target="1.8" />
       <module name="itemsharingService" target="1.5" />
+      <module name="netflixeurekanamingserver" target="1.8" />
       <module name="userservice" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -24,6 +26,7 @@
       <module name="configserver" options="-parameters" />
       <module name="itemService" options="-parameters" />
       <module name="itemsharing" options="-parameters" />
+      <module name="netflixeurekanamingserver" options="-parameters" />
       <module name="userservice" options="-parameters" />
     </option>
   </component>
