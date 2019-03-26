@@ -8,6 +8,7 @@
         <module>itemService</module>
         <module>configserver</module>
         <module>netflix-eureka-naming-server</module>
+        <module>netflix-zuul-api-gateway-server</module>
     </modules>
 
     <parent>
