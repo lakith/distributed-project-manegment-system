@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ZuulLoggingFilter extends ZuulFilter {
+public class ResponseFilter extends ZuulFilter {
 
     private Logger logger =  LoggerFactory.getLogger(this.getClass());
 
@@ -18,7 +18,7 @@ public class ZuulLoggingFilter extends ZuulFilter {
 
     @Override
     public String filterType() {
-        return FilterUtils.PRE_FILTER_TYPE;
+        return FilterUtils.POST_FILTER_TYPE;
     }
 
     @Override
@@ -31,28 +31,17 @@ public class ZuulLoggingFilter extends ZuulFilter {
         return true;
     }
 
-    private boolean isCorrelationIdPresent() {
-        if(filterUtils.getCorrelationId() != null) {
-            return true;
-        }
-        return false;
-    }
-
-    public String generateCorrelationId() {
-        return java.util.UUID.randomUUID().toString();
-    }
 
     @Override
     public Object run() throws ZuulException {
-        if(isCorrelationIdPresent()) {
-            logger.info("is-correlation-id found in tracking filter: {}", filterUtils.getCorrelationId());
-        } else {
-            filterUtils.setCorrelationId(generateCorrelationId());
-            logger.info("is-correlation-id generated in tracking filter: {}", filterUtils.getCorrelationId());
-        }
-
         RequestContext ctx = RequestContext.getCurrentContext();
-        logger.info("Processing incoming request for {}", ctx.getRequest().getRequestURI());
+
+        logger.info("Adding the correlation id to the outbound headers. {}", filterUtils.getCorrelationId());
+        ctx.getResponse().addHeader(FilterUtils.CORRELATION_ID, filterUtils.getCorrelationId());
+
+        logger.info("Completing outgoing request for {}", ctx.getRequest().getRequestURI());
+
         return null;
+
     }
 }

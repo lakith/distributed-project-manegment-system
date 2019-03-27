@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/authenticationServer/authenticationServer.iml" filepath="$PROJECT_DIR$/authenticationServer/authenticationServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/configserver/configserver.iml" filepath="$PROJECT_DIR$/configserver/configserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/itemService/itemService.iml" filepath="$PROJECT_DIR$/itemService/itemService.iml" />
       <module fileurl="file://$PROJECT_DIR$/itemsharing.iml" filepath="$PROJECT_DIR$/itemsharing.iml" />

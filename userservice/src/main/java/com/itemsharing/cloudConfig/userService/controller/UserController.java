@@ -18,6 +18,11 @@ public class UserController {
         return userService.getUserByUserName(username);
     }
 
+    @GetMapping("/internal/{username}")
+    public ResponseEntity<?> getUserByUserNameInternal(@PathVariable String username) {
+        return userService.getUserByUserNameForItemSerive(username);
+    }
+
     @PostMapping("/create")
     public ResponseEntity<?> createuser(@RequestBody UserDTO userDTO) throws Exception {
         return userService.createUser(userDTO);
