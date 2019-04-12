@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: auth-server
+  datasource:
+    url: jdbc:mysql://${DB_HOST}:${DB_PORT}/${DB_NAME}?useSSL=false
+    dbcp2:
+      validation-query: SELECT 1
+      test-on-borrow: true
+    username: ${DB_USER_NAME}
+    password: ${DB_PASSWORD}
+    initialization-mode: always
+server:
+  port: 9191
+
+
+
+logging:
+  level:
+    org:
+      hibernate:
+        type: trace

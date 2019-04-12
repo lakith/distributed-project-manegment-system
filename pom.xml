@@ -4,12 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <modules>
-        <module>userservice</module>
-        <module>itemService</module>
-        <module>configserver</module>
         <module>netflix-eureka-naming-server</module>
         <module>netflix-zuul-api-gateway-server</module>
         <module>authenticationServer</module>
+        <module>cloudConfigurationServer</module>
+        <module>userService</module>
     </modules>
 
     <parent>

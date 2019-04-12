@@ -6,14 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="configserver" />
-        <module name="itemService" />
+        <module name="authenticationServer" />
+        <module name="cloudConfigurationServer" />
         <module name="netflixeurekanamingserver" />
         <module name="netflixzuulapigatewayserver" />
-        <module name="userservice" />
+        <module name="userService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="authenticationServer" target="1.8" />
+      <module name="cloudConfigurationServer" target="1.8" />
       <module name="configserver" target="1.8" />
       <module name="itemService" target="1.8" />
       <module name="itemsharing" target="1.8" />
@@ -21,15 +23,19 @@
       <module name="netflixeurekanamingserver" target="1.8" />
       <module name="netflixzuulapigatewayserver" target="1.8" />
       <module name="userservice" target="1.8" />
+      <module name="userService" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="authenticationServer" options="-parameters" />
+      <module name="cloudConfigurationServer" options="-parameters" />
       <module name="configserver" options="-parameters" />
       <module name="itemService" options="-parameters" />
       <module name="itemsharing" options="-parameters" />
       <module name="netflixeurekanamingserver" options="-parameters" />
       <module name="netflixzuulapigatewayserver" options="-parameters" />
+      <module name="userService" options="-parameters" />
       <module name="userservice" options="-parameters" />
     </option>
   </component>

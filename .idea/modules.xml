@@ -3,12 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/authenticationServer/authenticationServer.iml" filepath="$PROJECT_DIR$/authenticationServer/authenticationServer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/configserver/configserver.iml" filepath="$PROJECT_DIR$/configserver/configserver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/itemService/itemService.iml" filepath="$PROJECT_DIR$/itemService/itemService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloudConfigurationServer/cloudConfigurationServer.iml" filepath="$PROJECT_DIR$/cloudConfigurationServer/cloudConfigurationServer.iml" />
       <module fileurl="file://$PROJECT_DIR$/itemsharing.iml" filepath="$PROJECT_DIR$/itemsharing.iml" />
       <module fileurl="file://$PROJECT_DIR$/netflix-eureka-naming-server/netflixeurekanamingserver.iml" filepath="$PROJECT_DIR$/netflix-eureka-naming-server/netflixeurekanamingserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/netflixzuulapigatewayserver.iml" filepath="$PROJECT_DIR$/netflix-zuul-api-gateway-server/netflixzuulapigatewayserver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/userservice/userservice.iml" filepath="$PROJECT_DIR$/userservice/userservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userService/userService.iml" filepath="$PROJECT_DIR$/userService/userService.iml" />
     </modules>
   </component>
 </project>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="98bc69ce-7bd9-4ff0-83e6-0318245b509d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_oauth2_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_1_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_springframework_security_spring_security_jwt_unknown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticationServer/src/main/java/com/itemsharing/authorization/AuthorizationserverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticationServer/src/main/java/com/itemsharing/authorization/Repository/UserDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticationServer/src/main/java/com/itemsharing/authorization/configuration/AuthorizationServerConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticationServer/src/main/java/com/itemsharing/authorization/configuration/WebSecurityConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticationServer/src/main/java/com/itemsharing/authorization/model/AuthUserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticationServer/src/main/java/com/itemsharing/authorization/model/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticationServer/src/main/java/com/itemsharing/authorization/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticationServer/src/main/java/com/itemsharing/authorization/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticationServer/src/main/java/com/itemsharing/authorization/service/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticationServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticationServer/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticationServer/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authenticationServer/authenticationServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../authenticationServer/authenticationServer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authenticationServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../authenticationServer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../configserver/src/main/java/com/itemsharing/cloudConfig/SpringCloudConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../configserver/src/main/java/com/itemsharing/authorization/cloudConfig/SpringCloudConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/cloudConfig/itemService/DTO/UserDisplayDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/authorization/cloudConfig/itemService/DTO/UserDisplayDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/cloudConfig/itemService/ItemSharingApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/authorization/cloudConfig/itemService/ItemSharingApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/cloudConfig/itemService/component/GetToday.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/authorization/cloudConfig/itemService/component/GetToday.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/cloudConfig/itemService/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/authorization/cloudConfig/itemService/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/cloudConfig/itemService/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/authorization/cloudConfig/itemService/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/cloudConfig/itemService/model/ResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/authorization/cloudConfig/itemService/model/ResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/cloudConfig/itemService/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/authorization/cloudConfig/itemService/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/cloudConfig/itemService/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/authorization/cloudConfig/itemService/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/cloudConfig/itemService/model/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/authorization/cloudConfig/itemService/model/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/cloudConfig/itemService/proxy/UserServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/authorization/cloudConfig/itemService/proxy/UserServiceProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/cloudConfig/itemService/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/authorization/cloudConfig/itemService/repository/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/cloudConfig/itemService/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/authorization/cloudConfig/itemService/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/cloudConfig/itemService/service/impl/ItemServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../itemService/src/main/java/com/itemsharing/authorization/cloudConfig/itemService/service/impl/ItemServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/itemsharing/eureka/NetflixEurekaNamingServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/itemsharing/authorization/eureka/NetflixEurekaNamingServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/CustomExeption/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/CustomExeption/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/Repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/Repository/RoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/Repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/Repository/UserRoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/Repository/UserRoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/Service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/Service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/Service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/Service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/Service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/Service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/UserServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/Utility/SecurityUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/Utility/SecurityUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/component/GetToday.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/component/GetToday.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/configuration/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/configuration/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/dto/RoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/dto/RoleDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/dto/UserDisplayDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/dto/UserDisplayDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/model/Authority.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/model/Authority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/model/ResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/model/ResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/cloudConfig/userService/model/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/model/UserRole.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="137" />
+    <option name="y" value="48" />
+    <option name="width" value="1024" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98bc69ce-7bd9-4ff0-83e6-0318245b509d" name="Default Changelist" comment="" />
+      <created>1554966002511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554966002511</updated>
+      <workItem from="1554966004457" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

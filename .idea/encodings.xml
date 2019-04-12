@@ -2,10 +2,14 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authenticationServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloudConfigurationServer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/configserver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/configserver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/itemService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netflix-eureka-naming-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/userService" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/userservice" charset="UTF-8" />
   </component>
 </project>
