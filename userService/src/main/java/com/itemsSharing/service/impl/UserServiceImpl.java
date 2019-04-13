@@ -193,7 +193,7 @@ public class UserServiceImpl implements UserService {
     public ResponseEntity<?> getOneUser(int userID) {
         Optional<User> optionalUser = userRepository.findById(userID);
         if(!optionalUser.isPresent()){
-            return new ResponseEntity<>(new ResponseModel("Invalied User",false),HttpStatus.BAD_REQUEST);
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
         }
         User user = optionalUser.get();
         DisplayOneUserDTO displayUserDataDTO = new DisplayOneUserDTO();

@@ -24,6 +24,8 @@ zuul:
   routes:
     item-service: /item/**
     user-service: /user/**
+    project-service: /project/**
+
   ignored-services: '*'
   prefix: /api
   host:
@@ -33,7 +35,7 @@ zuul:
     socket-timeout-millis: 60000
   semaphore:
     max-semaphores: 500
-
+  sensitiveHeaders: Cookie,Set-Cookie
 
 hystrix:
   command:

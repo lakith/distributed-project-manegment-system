@@ -10,6 +10,7 @@
         <module name="cloudConfigurationServer" />
         <module name="netflixeurekanamingserver" />
         <module name="netflixzuulapigatewayserver" />
+        <module name="projectService" />
         <module name="userService" />
       </profile>
     </annotationProcessing>
@@ -22,6 +23,7 @@
       <module name="itemsharingService" target="1.5" />
       <module name="netflixeurekanamingserver" target="1.8" />
       <module name="netflixzuulapigatewayserver" target="1.8" />
+      <module name="projectService" target="1.8" />
       <module name="userservice" target="1.8" />
       <module name="userService" target="1.8" />
     </bytecodeTargetLevel>
@@ -35,6 +37,7 @@
       <module name="itemsharing" options="-parameters" />
       <module name="netflixeurekanamingserver" options="-parameters" />
       <module name="netflixzuulapigatewayserver" options="-parameters" />
+      <module name="projectService" options="-parameters" />
       <module name="userService" options="-parameters" />
       <module name="userservice" options="-parameters" />
     </option>

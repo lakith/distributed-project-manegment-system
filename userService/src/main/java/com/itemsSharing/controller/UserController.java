@@ -60,6 +60,7 @@ public class UserController {
 
     @GetMapping("/get-user-from-token")
     public ResponseEntity<?> getUserFromToken(Principal principal){
+
         return userService.getUserFromToken(principal);
     }
 

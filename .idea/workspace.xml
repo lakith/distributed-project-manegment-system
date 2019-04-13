@@ -2,276 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0fd7caa-61dd-411d-8ae0-3af4255d6225" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_1_11_163.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_acm_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_api_gateway_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_applicationautoscaling_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_appstream_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_athena_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_autoscaling_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_batch_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_budgets_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_clouddirectory_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cloudformation_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cloudfront_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cloudhsm_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cloudsearch_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cloudtrail_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cloudwatch_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cloudwatchmetrics_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_codebuild_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_codecommit_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_codedeploy_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_codepipeline_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_codestar_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cognitoidentity_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cognitoidp_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_cognitosync_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_config_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_core_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_costandusagereport_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_datapipeline_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_dax_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_devicefarm_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_directconnect_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_directory_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_discovery_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_dms_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_dynamodb_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_ec2_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_ecr_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_ecs_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_efs_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_elasticache_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_elasticbeanstalk_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_elasticloadbalancing_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_elasticloadbalancingv2_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_elasticsearch_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_elastictranscoder_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_emr_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_events_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_gamelift_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_glacier_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_greengrass_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_health_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_iam_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_importexport_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_inspector_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_iot_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_kinesis_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_kms_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_lambda_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_lex_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_lexmodelbuilding_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_lightsail_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_logs_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_machinelearning_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_marketplacecommerceanalytics_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_marketplaceentitlement_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_marketplacemeteringservice_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_mechanicalturkrequester_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_models_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_opsworks_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_opsworkscm_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_organizations_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_pinpoint_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_polly_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_rds_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_redshift_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_rekognition_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_resourcegroupstaggingapi_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_route53_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_s3_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_servermigration_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_servicecatalog_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_ses_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_shield_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_simpledb_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_simpleworkflow_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_snowball_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_sns_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_sqs_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_ssm_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_stepfunctions_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_storagegateway_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_sts_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_support_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_swf_libraries_1_11_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_waf_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_workdocs_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_workspaces_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_aws_java_sdk_xray_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_amazonaws_jmespath_java_1_11_415.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_boot_spring_security_oauth2_autoconfigure_2_1_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_oauth_spring_security_oauth2_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_jwt_unknown.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__software_amazon_ion_ion_java_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/AuthorizationserverApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/Repository/UserDetailRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/configuration/AuthorizationServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/configuration/WebSecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/AuthUserDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/Permission.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/service/UserDetailServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationServer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationServer/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authenticationServer/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudConfigurationServer/cloudConfigurationServer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudConfigurationServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudConfigurationServer/src/main/java/com/itemsSharing/CloudConfigServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudConfigurationServer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/config/AWSConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/config/ApiParameters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/controller/UserRoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/AuthToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/DisplayOneUserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/DisplayUserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/LoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/jwt/JwtGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/jwt/JwtTokenAuthenticationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/jwt/JwtTokenAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/ResponseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/repository/UserRoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/UserRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/AmazonClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/UserRoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/userService.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/projectService.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/ProjectServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/config/AWSConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/config/ApiParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/AuthToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ClientDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/DisplayOneUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/DisplayUserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/LoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ProjectDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/TecnologiesDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/hystrix/DelegatingUserContextCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/hystrix/ThreadLocalAwareStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/hystrix/ThreadLocalConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/jwt/JwtTokenAuthenticationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/jwt/JwtTokenAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/Project.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectAdmins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectTasks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectTecnologies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/TaskDev.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/proxy/UserServiceProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectAdminsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectClientsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectTasksRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectTecnologiesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/TaskDevRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectAdminsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectTasksService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectTecnologiesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/TaskDevService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectAdminsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectClientServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectTasksServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectTecnologiesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/TaskDevServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/util/ProjectContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/util/ProjectContextFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/util/ProjectContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/util/ProjectContextInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/projectService/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_10_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_10_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_2_1_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_2_1_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_oauth2_2_1_2_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationServer/authenticationServer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationServer/authenticationServer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/authenticationServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationServer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/configuration/AuthorizationServerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/configuration/AuthorizationServerConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/configuration/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/configuration/WebSecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/AuthUserDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/AuthUserDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/configserver.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/java/com/itemsharing/cloudConfig/SpringCloudConfigServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/configserver/target/classes/com/itemsharing/cloudConfig/SpringCloudConfigServerApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/itemService.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/src/main/java/com/itemsharing/cloudConfig/itemService/DTO/UserDisplayDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/src/main/java/com/itemsharing/cloudConfig/itemService/ItemSharingApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/src/main/java/com/itemsharing/cloudConfig/itemService/component/GetToday.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/src/main/java/com/itemsharing/cloudConfig/itemService/controller/ItemController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/src/main/java/com/itemsharing/cloudConfig/itemService/model/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/src/main/java/com/itemsharing/cloudConfig/itemService/model/ResponseModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/src/main/java/com/itemsharing/cloudConfig/itemService/model/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/src/main/java/com/itemsharing/cloudConfig/itemService/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/src/main/java/com/itemsharing/cloudConfig/itemService/model/UserRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/src/main/java/com/itemsharing/cloudConfig/itemService/proxy/UserServiceProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/src/main/java/com/itemsharing/cloudConfig/itemService/repository/ItemRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/src/main/java/com/itemsharing/cloudConfig/itemService/service/ItemService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/src/main/java/com/itemsharing/cloudConfig/itemService/service/impl/ItemServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/META-INF/itemService.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/com/itemsharing/cloudConfig/itemService/DTO/UserDisplayDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/com/itemsharing/cloudConfig/itemService/ItemSharingApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/com/itemsharing/cloudConfig/itemService/component/GetToday.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/com/itemsharing/cloudConfig/itemService/controller/ItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/com/itemsharing/cloudConfig/itemService/model/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/com/itemsharing/cloudConfig/itemService/model/ResponseModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/com/itemsharing/cloudConfig/itemService/model/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/com/itemsharing/cloudConfig/itemService/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/com/itemsharing/cloudConfig/itemService/model/UserRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/com/itemsharing/cloudConfig/itemService/proxy/UserServiceProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/com/itemsharing/cloudConfig/itemService/repository/ItemRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/com/itemsharing/cloudConfig/itemService/service/ItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemService/target/classes/com/itemsharing/cloudConfig/itemService/service/impl/ItemServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/itemsharing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/itemsharing.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netflix-eureka-naming-server/src/main/java/com/itemsharing/eureka/NetflixEurekaNamingServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/netflix-eureka-naming-server/src/main/java/com/itemsharing/authorization/eureka/NetflixEurekaNamingServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netflix-eureka-naming-server/target/classes/com/itemsharing/eureka/NetflixEurekaNamingServerApplication.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netflix-zuul-api-gateway-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/netflix-zuul-api-gateway-server/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/CustomExeption/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/Repository/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/Repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/Repository/UserRoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/Service/RoleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/Service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/Service/impl/RoleServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/Service/impl/UserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/UserServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/UserServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/Utility/SecurityUtility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/component/GetToday.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/configuration/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/dto/RoleDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/dto/UserDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/dto/UserDisplayDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/model/Authority.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/model/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/model/ResponseModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/model/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/cloudConfig/userService/model/UserRole.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/src/main/resources/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/META-INF/userservice.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/bootstrap.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/CustomExeption/ResourceNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/Repository/RoleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/Repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/Repository/UserRoleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/Service/RoleService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/Service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/Service/impl/RoleServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/Service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/UserServiceApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/Utility/SecurityUtility.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/component/GetToday.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/configuration/WebSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/dto/RoleDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/dto/UserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/dto/UserDisplayDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/model/Authority.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/model/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/model/ResponseModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/model/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/target/classes/com/itemsharing/cloudConfig/userService/model/UserRole.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userservice/userservice.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/target/classes/com/itemsSharing/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/userService/target/classes/com/itemsSharing/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -284,6 +91,7 @@
     <ignored path="$PROJECT_DIR$/netflix-zuul-api-gateway-server/target/" />
     <ignored path="$PROJECT_DIR$/authenticationServer/target/" />
     <ignored path="$PROJECT_DIR$/cloudConfigurationServer/target/" />
+    <ignored path="$PROJECT_DIR$/projectService/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -296,100 +104,131 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/util/ZuulContext.java">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/util/ZuulContextFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/util/ZuulContextHolder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/UserRoleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="1634">
+              <caret line="128" selection-start-line="128" selection-end-line="128" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/UserRoleServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-578">
-              <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/component/FilterUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-390">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/component/ResponseFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-152">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/component/ZuulLoggingFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-305">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/proxy/UserServiceProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="221">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/Project.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1978#1979#0" expanded="true" />
+                <element signature="e#2028#2029#0" expanded="true" />
+                <element signature="e#2677#2678#0" expanded="true" />
+                <element signature="e#2716#2717#0" expanded="true" />
+                <element signature="e#2778#2779#0" expanded="true" />
+                <element signature="e#2834#2835#0" expanded="true" />
+                <element signature="e#2873#2874#0" expanded="true" />
+                <element signature="e#2910#2911#0" expanded="true" />
+                <element signature="e#2968#2969#0" expanded="true" />
+                <element signature="e#3020#3021#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/hystrix/DelegatingUserContextCallable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/TaskDevServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectTasksServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-140">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1494#1495#0" expanded="true" />
+                <element signature="e#1524#1525#0" expanded="true" />
+                <element signature="e#1571#1572#0" expanded="true" />
+                <element signature="e#1609#1610#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectAdmins.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-38">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectTasks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-140">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1592#1593#0" expanded="true" />
+                <element signature="e#1626#1627#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectTecnologies.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-89">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -416,64 +255,64 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/configuration/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/itemService/src/main/java/com/itemsharing/authorization/cloudConfig/itemService/ItemSharingApplication.java" />
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/configuration/JWTTokenEnhancer.java" />
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/configuration/OAuth2Config.java" />
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/AuthorizationserverApplication.java" />
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/authenticationServer/pom.xml" />
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/service/UserDetailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/Permission.java" />
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/Repository/UserDetailRepository.java" />
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/resources/data.txt" />
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/resources/schema.sql" />
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/resources/data.sql" />
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/User.java" />
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/configuration/AuthorizationServerConfiguration.java" />
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/configuration/WebSecurityConfiguration.java" />
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/AuthUserDetail.java" />
-        <option value="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/Role.java" />
-        <option value="$PROJECT_DIR$/cloudConfigurationServer/src/main/java/com/itemsSharing/CloudConfigServer.java" />
-        <option value="$PROJECT_DIR$/cloudConfigurationServer/pom.xml" />
-        <option value="$PROJECT_DIR$/cloudConfigurationServer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/UserService.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/UserServiceApplication.java" />
-        <option value="$PROJECT_DIR$/userService/pom.xml" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/UserRole.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/User.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/repository/UserRoleRepository.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/jwt/JwtGenerator.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/jwt/JwtTokenAuthenticationFilter.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/config/ApiParameters.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/config/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/jwt/JwtTokenAuthenticationConfig.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/ResponseModel.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/DisplayOneUserDTO.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/config/AWSConfig.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/AmazonClient.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/UserDTO.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/AuthToken.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/DisplayUserDTO.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/LoginDTO.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/UserService.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/UserRoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/UserRoleService.java" />
         <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/controller/UserRoleController.java" />
+        <option value="$PROJECT_DIR$/projectService/pom.xml" />
+        <option value="$PROJECT_DIR$/projectService/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/projectService/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/config/ApiParameters.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/jwt/JwtGenerator.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/jwt/JwtTokenAuthenticationConfig.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/jwt/JwtTokenAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/config/SecurityConfig.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/UserRole.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/DisplayUserDTO.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/Projects.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/TaskDev.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectTasks.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectAdmins.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectTecnologies.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectClient.java" />
+        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectClientService.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectTasksService.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectTecnologiesService.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/TaskDevService.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectAdminsService.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectAdminsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/TecnologiesDTO.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ClientDTO.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ProjectDTO.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectAdminsRepository.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectClientsRepository.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectRepository.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectTasksRepository.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectTecnologiesRepository.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/TaskDevRepository.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/ProjectServiceApplication.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/util/ProjectContext.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/util/ProjectContextHolder.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/util/ProjectContextFilter.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/util/ProjectContextInterceptor.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/hystrix/ThreadLocalAwareStrategy.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/hystrix/ThreadLocalConfiguration.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/hystrix/DelegatingUserContextCallable.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ResponseModel.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectService.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectController.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/controller/UserController.java" />
         <option value="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/Project.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/proxy/UserServiceProxy.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1358" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="width" value="1040" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -482,8 +321,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -494,6 +333,11 @@
             <path>
               <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
               <item name="distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix-eureka-naming-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed" type="462c0819:PsiDirectoryNode" />
               <item name="netflix-zuul-api-gateway-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -508,43 +352,6 @@
               <item name="netflix-zuul-api-gateway-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix-zuul-api-gateway-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix-zuul-api-gateway-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix-zuul-api-gateway-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix-zuul-api-gateway-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
@@ -557,76 +364,88 @@
             <path>
               <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
               <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="userService" type="462c0819:PsiDirectoryNode" />
+              <item name="projectService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
               <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="userService" type="462c0819:PsiDirectoryNode" />
+              <item name="projectService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
               <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="userService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="userService" type="462c0819:PsiDirectoryNode" />
+              <item name="projectService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
               <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="userService" type="462c0819:PsiDirectoryNode" />
+              <item name="projectService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itemsSharing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
               <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="userService" type="462c0819:PsiDirectoryNode" />
+              <item name="projectService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itemsSharing" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="itemsService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
               <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="userService" type="462c0819:PsiDirectoryNode" />
+              <item name="projectService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itemsSharing" type="462c0819:PsiDirectoryNode" />
+              <item name="itemsService" type="462c0819:PsiDirectoryNode" />
+              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="projectService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itemsService" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="projectService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itemsService" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="projectService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itemsService" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
               <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="userService" type="462c0819:PsiDirectoryNode" />
+              <item name="projectService" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itemsSharing" type="462c0819:PsiDirectoryNode" />
+              <item name="itemsService" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="userService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -642,7 +461,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555092810877" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555172200455" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -657,6 +476,7 @@
       <recent name="com.itemsharing.itemService.component" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\programming_life\microservice\distributed\projectService\src\main\java\com\itemsService\dto" />
       <recent name="C:\programming_life\microservice\itemsharing\authenticationServer\src\main\java\com\itemsharing\authorization" />
       <recent name="C:\programming_life\microservice\itemsharing\itemService\src\main\java\com\itemsharing\itemService" />
     </key>
@@ -690,9 +510,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.19117647" />
+    <option name="contentProportion" value="0.394958" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.ProjectServiceApplication">
     <configuration name="UserServiceApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/UserServiceApplication.http">
       <method v="2" />
     </configuration>
@@ -738,9 +558,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringCloudConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="itemsharing" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itemsharing.authorization.cloudConfig.SpringCloudConfigServerApplication" />
+    <configuration name="ProjectServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="projectService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itemsService.ProjectServiceApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <envs>
+        <env name="DB_HOST" value="localhost" />
+        <env name="DB_PORT" value="3306" />
+        <env name="DB_NAME" value="distributedProjectServiceDb" />
+        <env name="DB_USER_NAME" value="root" />
+        <env name="DB_PASSWORD" value="" />
+      </envs>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -771,8 +599,8 @@
       <item itemvalue="Spring Boot.AuthorizationserverApplication" />
       <item itemvalue="Spring Boot.NetflixEurekaNamingServerApplication (1)" />
       <item itemvalue="Spring Boot.NetflixZuulApiGatewayServerApplication" />
-      <item itemvalue="Spring Boot.SpringCloudConfigServerApplication" />
       <item itemvalue="Spring Boot.CloudConfigServer" />
+      <item itemvalue="Spring Boot.ProjectServiceApplication" />
       <item itemvalue="Spring Boot.UserServiceApplication" />
     </list>
     <recent_temporary>
@@ -797,12 +625,13 @@
       <workItem from="1553309653546" duration="11901000" />
       <workItem from="1553594714956" duration="41294000" />
       <workItem from="1554973330830" duration="1585000" />
-      <workItem from="1555062307316" duration="15638000" />
+      <workItem from="1555062307316" duration="16404000" />
+      <workItem from="1555129489789" duration="26172000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92006000" />
+    <option name="totallyTimeSpent" value="118944000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -814,10 +643,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-8" width="1040" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23524962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3877551" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -826,7 +655,7 @@
       <window_info id="Web" order="6" side_tool="true" />
       <window_info id="Favorites" order="7" weight="0.32959184" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34042552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -836,11 +665,11 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.18106312" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32890365" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32733223" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.3502455" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.10310966" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -865,571 +694,558 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/util/ZuulContextFilter.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/util/ZuulContextFilter.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/util/ZuulContextFilter.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/util/ZuulContextFilter.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/util/ZuulContextFilter.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/controller/UserController.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/controller/UserController.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/controller/UserController.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>97</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>96</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>79</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>75</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>123</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>132</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="this.CGLIB$CALLBACK_0" custom="com.itemsSharing.service.impl.UserServiceImpl,com.itemsSharing.controller.UserController" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/AuthUserDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userservice/src/main/java/com/itemsharing/authorization/cloudConfig/userService/UserServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netflix-eureka-naming-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netflix-eureka-naming-server/src/main/java/com/itemsharing/authorization/eureka/NetflixEurekaNamingServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configserver/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configserver/src/main/java/com/itemsharing/authorization/cloudConfig/SpringCloudConfigServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudConfigurationServer/src/main/java/com/itemsSharing/CloudConfigServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configserver/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudConfigurationServer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="20" selection-start-line="20" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudConfigurationServer/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectTecnologiesServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="23" />
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userService/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1030#1031#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1107#1108#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1237#1238#0" expanded="true" />
-            <element signature="e#1269#1270#0" expanded="true" />
-            <element signature="e#1297#1298#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
-            <element signature="e#1373#1374#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1452#1453#0" expanded="true" />
-            <element signature="e#1509#1510#0" expanded="true" />
-            <element signature="e#1549#1550#0" expanded="true" />
-            <element signature="e#1597#1598#0" expanded="true" />
-            <element signature="e#1628#1629#0" expanded="true" />
-            <element signature="e#1685#1686#0" expanded="true" />
-            <element signature="e#1725#1726#0" expanded="true" />
-            <element signature="e#1758#1759#0" expanded="true" />
-            <element signature="e#1787#1788#0" expanded="true" />
-            <element signature="e#1832#1833#0" expanded="true" />
-            <element signature="e#1868#1869#0" expanded="true" />
-            <element signature="e#1905#1906#0" expanded="true" />
-            <element signature="e#1938#1939#0" expanded="true" />
-            <element signature="e#1990#1991#0" expanded="true" />
-            <element signature="e#2034#2035#0" expanded="true" />
-            <element signature="e#2072#2073#0" expanded="true" />
-            <element signature="e#2106#2107#0" expanded="true" />
-            <element signature="e#2160#2161#0" expanded="true" />
-            <element signature="e#2206#2207#0" expanded="true" />
-            <element signature="e#2256#2257#0" expanded="true" />
-            <element signature="e#2287#2288#0" expanded="true" />
-            <element signature="e#2346#2347#0" expanded="true" />
-            <element signature="e#2386#2387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#316#317#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/repository/UserRoleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/UserServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/jwt/JwtTokenAuthenticationConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#740#741#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#803#804#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#876#877#0" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#945#946#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1088#1089#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1170#1171#0" expanded="true" />
-            <element signature="e#1214#1215#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1276#1277#0" expanded="true" />
-            <element signature="e#1320#1321#0" expanded="true" />
-            <element signature="e#1356#1357#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/jwt/JwtGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/jwt/JwtTokenAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#1986#2016#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/config/ApiParameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/ResponseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#228#229#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/DisplayOneUserDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#695#696#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#783#784#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/AWSConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/config/AWSConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/AmazonClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/UserDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#896#897#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#962#963#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1108#1109#0" expanded="true" />
-            <element signature="e#1148#1149#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1282#1283#0" expanded="true" />
-            <element signature="e#1316#1317#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1382#1383#0" expanded="true" />
-            <element signature="e#1430#1431#0" expanded="true" />
-            <element signature="e#1470#1471#0" expanded="true" />
-            <element signature="e#1500#1501#0" expanded="true" />
-            <element signature="e#1529#1530#0" expanded="true" />
-            <element signature="e#1570#1571#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/AuthToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/DisplayUserDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
-          <folding>
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#652#653#0" expanded="true" />
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#784#785#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#852#853#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1270#1271#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
-            <element signature="e#1338#1339#0" expanded="true" />
-            <element signature="e#1388#1389#0" expanded="true" />
-            <element signature="e#1428#1429#0" expanded="true" />
-            <element signature="e#1465#1466#0" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/LoginDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="20" column="54" lean-forward="true" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/controller/UserRoleController.java">
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/TaskDev.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1332#1333#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-            <element signature="e#1506#1507#0" expanded="true" />
-            <element signature="e#1562#1563#0" expanded="true" />
-            <element signature="e#1671#1672#0" expanded="true" />
-            <element signature="e#1733#1734#0" expanded="true" />
-            <element signature="e#2014#2015#0" expanded="true" />
-            <element signature="e#2065#2066#0" expanded="true" />
-            <element signature="e#2144#2145#0" expanded="true" />
-            <element signature="e#2192#2193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/NetflixZuulApiGatewayServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="374">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/util/ZuulContextInterceptor.java">
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectAdminsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="19" column="74" selection-start-line="19" selection-start-column="74" selection-end-line="19" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectAdminsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectClientsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="85" selection-start-line="5" selection-start-column="85" selection-end-line="5" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectTasksRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="83" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectTecnologiesRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="94" selection-start-line="5" selection-start-column="94" selection-end-line="5" selection-end-column="94" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/TaskDevRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="75" lean-forward="true" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/jwt/JwtGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/component/FilterUtils.java">
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectAdminsRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-390">
+        <state relative-caret-position="51">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/util/ProjectContextInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/util/ProjectContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="e#192#208#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/util/ProjectContextFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/hystrix/ThreadLocalConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/hystrix/ThreadLocalAwareStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="1" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/util/ProjectContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ResponseModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="78" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/TecnologiesDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#498#499#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ProjectDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ClientDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#655#656#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#833#834#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="206" lean-forward="true" selection-start-line="206" selection-end-line="206" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/UserRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-107">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-838">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/config/SecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/jwt/JwtGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/jwt/JwtTokenAuthenticationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/component/ResponseFilter.java">
+    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/jwt/JwtTokenAuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="-22">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/component/ZuulLoggingFilter.java">
+    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/config/AWSConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
+        <state relative-caret-position="85">
           <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
@@ -1441,54 +1257,182 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/util/ZuulContextFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/util/ZuulContextHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/UserRoleService.java">
+    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/UserServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/NetflixZuulApiGatewayServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/util/ZuulContextFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1876#1877#0" expanded="true" />
+            <element signature="e#2330#2331#0" expanded="true" />
+            <element signature="e#2381#2382#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/UserRoleServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/component/FilterUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-578">
-          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-484">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/ProjectServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectTecnologies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectAdmins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1524#1525#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1609#1610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1978#1979#0" expanded="true" />
+            <element signature="e#2028#2029#0" expanded="true" />
+            <element signature="e#2677#2678#0" expanded="true" />
+            <element signature="e#2716#2717#0" expanded="true" />
+            <element signature="e#2778#2779#0" expanded="true" />
+            <element signature="e#2834#2835#0" expanded="true" />
+            <element signature="e#2873#2874#0" expanded="true" />
+            <element signature="e#2910#2911#0" expanded="true" />
+            <element signature="e#2968#2969#0" expanded="true" />
+            <element signature="e#3020#3021#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/hystrix/DelegatingUserContextCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/TaskDevServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectTasksServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/proxy/UserServiceProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

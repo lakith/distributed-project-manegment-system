@@ -9,6 +9,7 @@
         <module>authenticationServer</module>
         <module>cloudConfigurationServer</module>
         <module>userService</module>
+        <module>projectService</module>
     </modules>
 
     <parent>

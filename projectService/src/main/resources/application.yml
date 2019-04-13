@@ -1,0 +1,9 @@
+server:
+  port: 8084
+
+jwt:
+  loginurl: /users/login
+  requrl: /users/login
+  header: Authorization
+  prefix: Bearer
+  expiration: 28800
