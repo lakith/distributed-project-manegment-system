@@ -22,7 +22,6 @@ public class ProjectController {
     @Autowired
     ProjectService projectService;
 
-
     @GetMapping("/test")
     public ResponseEntity<?> testController(){
         return new ResponseEntity<>(projectAdminsService.test(), HttpStatus.OK);
@@ -31,5 +30,15 @@ public class ProjectController {
     @PostMapping("/project-save")
     public ResponseEntity<?> projectSave(@RequestBody @Valid ProjectDTO projectDTO, Principal principal){
         return projectService.projectSave(projectDTO,principal);
+    }
+
+    @GetMapping("/one-Project")
+    public ResponseEntity<?> getProject(@RequestParam("project_id") int projectId){
+        return projectService.getOneProject(projectId);
+    }
+
+    @GetMapping("/all-projects")
+    public ResponseEntity<?> getAllProjects(){
+        return projectService.gellAllProjects();
     }
 }

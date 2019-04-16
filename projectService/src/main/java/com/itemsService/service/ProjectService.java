@@ -9,4 +9,7 @@ public interface ProjectService {
 
     ResponseEntity<?> projectSave(ProjectDTO projectDTO, Principal principal);
 
+    ResponseEntity<?> getOneProject(int projectId);
+
+    ResponseEntity<?> gellAllProjects();
 }

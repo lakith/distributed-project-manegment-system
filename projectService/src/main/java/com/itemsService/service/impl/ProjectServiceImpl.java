@@ -2,6 +2,7 @@ package com.itemsService.service.impl;
 
 import com.itemsService.dto.DisplayOneUserDTO;
 import com.itemsService.dto.ProjectDTO;
+import com.itemsService.dto.ProjectUserDTO;
 import com.itemsService.dto.TecnologiesDTO;
 import com.itemsService.model.*;
 import com.itemsService.proxy.UserServiceProxy;
@@ -24,6 +25,7 @@ import javax.transaction.Transactional;
 import java.security.Principal;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -124,14 +126,39 @@ public class ProjectServiceImpl implements ProjectService {
             project.setTecnologies(projectTecnologies);
             project.setProjectAdmins(projectAdminsList);
 
+            ProjectUserDTO projectUserDTO = new ProjectUserDTO();
+            projectUserDTO.setProjectId(project.getProjectId());
+            projectUserDTO.setUserid(userId);
+
             try {
                 project = projectRepository.save(project);
+                ResponseModel responseModel = userServiceProxy.saveAdmin(projectUserDTO).getBody();
+                if(responseModel.isStatus()){
+                    lOGGER.info(responseModel.getMessage());
+                } else {
+                    lOGGER.error(responseModel.getMessage());
+                }
                 lOGGER.info("final project save");
                 return new ResponseEntity<>(project,HttpStatus.CREATED);
             } catch (Exception e) {
                 throw new RuntimeException(e.getMessage());
             }
         }
+    }
+
+    @Override
+    public ResponseEntity<?> getOneProject(int projectId) {
+        Optional<Project> optionalProject = projectRepository.findById(projectId);
+        if(!optionalProject.isPresent()){
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        } else {
+            return new ResponseEntity<>(optionalProject.get(),HttpStatus.OK);
+        }
+    }
+
+    @Override
+    public ResponseEntity<?> gellAllProjects() {
+        return new ResponseEntity<>(projectRepository.findAll(),HttpStatus.OK);
     }
 
     public ResponseEntity<?> buildFallbackUser(ProjectDTO projectDTO, Principal principal){

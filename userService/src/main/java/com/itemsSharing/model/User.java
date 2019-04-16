@@ -6,6 +6,7 @@ import io.micrometer.core.lang.NonNull;
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
+import java.util.List;
 
 @Entity
 @Table(name = "user")
@@ -44,7 +45,43 @@ public class User {
     @JoinColumn(name = "roleId")
     private UserRole userRole;
 
+    @OneToMany(fetch = FetchType.LAZY)
+    @JoinColumn(name = "dev_projects_user_id")
+    List<DevProjects> devProjects;
+
+    @OneToMany(fetch = FetchType.LAZY)
+    @JoinColumn(name = "admin_projects_user_id")
+    List<AdminProjects> adminProjects;
+
+    @OneToMany(fetch = FetchType.LAZY)
+    @JoinColumn(name = "dev_admin_projects_user_id")
+    List<DevAdminProjects> devAdminProjects;
+
     public User() {
+    }
+
+    public List<DevProjects> getDevProjects() {
+        return devProjects;
+    }
+
+    public void setDevProjects(List<DevProjects> devProjects) {
+        this.devProjects = devProjects;
+    }
+
+    public List<AdminProjects> getAdminProjects() {
+        return adminProjects;
+    }
+
+    public void setAdminProjects(List<AdminProjects> adminProjects) {
+        this.adminProjects = adminProjects;
+    }
+
+    public List<DevAdminProjects> getDevAdminProjects() {
+        return devAdminProjects;
+    }
+
+    public void setDevAdminProjects(List<DevAdminProjects> devAdminProjects) {
+        this.devAdminProjects = devAdminProjects;
     }
 
     public int getUserId() {
