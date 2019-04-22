@@ -12,4 +12,10 @@ public interface ProjectService {
     ResponseEntity<?> getOneProject(int projectId);
 
     ResponseEntity<?> gellAllProjects();
+
+    ResponseEntity<?> addprojectAdmins(int projectId,int userId);
+
+    ResponseEntity<?> completedProjects();
+
+    ResponseEntity<?> PendingProjects();
 }

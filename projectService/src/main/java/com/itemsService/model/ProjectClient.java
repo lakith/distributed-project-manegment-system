@@ -27,6 +27,8 @@ public class ProjectClient {
     @JsonIgnore
     private Project project;
 
+
+
     public ProjectClient() {
     }
 

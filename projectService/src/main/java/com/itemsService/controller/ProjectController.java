@@ -37,8 +37,23 @@ public class ProjectController {
         return projectService.getOneProject(projectId);
     }
 
+    @GetMapping("/add-admins")
+    public ResponseEntity<?> setProjectAdmins(@RequestParam("project-id") int projectId, @RequestParam("user-id") int userId){
+        return projectService.addprojectAdmins(projectId,userId);
+    }
+
     @GetMapping("/all-projects")
     public ResponseEntity<?> getAllProjects(){
         return projectService.gellAllProjects();
+    }
+
+    @GetMapping("/completed-projects")
+    public ResponseEntity<?> completedProjects(){
+        return projectService.completedProjects();
+    }
+
+    @GetMapping("/pending-projects")
+    public ResponseEntity<?> PendingProjects(){
+        return projectService.PendingProjects();
     }
 }

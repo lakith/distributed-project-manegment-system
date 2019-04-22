@@ -46,6 +46,8 @@ public class Project {
     @JsonIgnore
     private ProjectClient projectClient;
 
+    private boolean projectStatus = false;
+
     public Project() {
     }
 
@@ -119,5 +121,13 @@ public class Project {
 
     public void setProjectEndDate(Date projectEndDate) {
         this.projectEndDate = projectEndDate;
+    }
+
+    public boolean isProjectStatus() {
+        return projectStatus;
+    }
+
+    public void setProjectStatus(boolean projectStatus) {
+        this.projectStatus = projectStatus;
     }
 }

@@ -3,6 +3,7 @@ package com.itemsService.service.impl;
 import com.itemsService.dto.*;
 import com.itemsService.model.*;
 import com.itemsService.proxy.UserServiceProxy;
+import com.itemsService.repository.ProjectClientsRepository;
 import com.itemsService.repository.ProjectRepository;
 import com.itemsService.repository.ProjectTasksRepository;
 import com.itemsService.service.ProjectUserService;
@@ -34,6 +35,9 @@ public class ProjectUserServiceImpl implements ProjectUserService {
 
     @Autowired
     ProjectTasksRepository projectTasksRepository;
+
+    @Autowired
+    ProjectClientsRepository projectClientsRepository;
 
     private static final Logger lOGGER = LoggerFactory.getLogger(ProjectServiceImpl.class);
 
@@ -74,14 +78,18 @@ public class ProjectUserServiceImpl implements ProjectUserService {
                     projectDisplayDTO.setProjectEndDate(optionalProject.get().getProjectEndDate());
                     projectDisplayDTO.setProjectDescription(optionalProject.get().getProjectDescription());
 
-//                    ProjectClient projectClient = new ProjectClient();
-//                    projectClient.setClientWebUri(optionalProject.get().getProjectClient().getClientWebUri());
-//                    projectClient.setClientMobile(optionalProject.get().getProjectClient().getClientMobile());
-//                    projectClient.setClientEmail(optionalProject.get().getProjectClient().getClientEmail());
-//                    projectClient.setClientName(optionalProject.get().getProjectClient().getClientName());
-//                    projectClient.setClientId(optionalProject.get().getProjectClient().getClientId());
 
-//                    projectDisplayDTO.setProjectClient(projectClient);
+                    List<DisplayOneUserDTO> displayOneUserDTOList = new ArrayList<>();
+                    for(ProjectAdmins projectAdmins : optionalProject.get().getProjectAdmins()){
+                        DisplayOneUserDTO displayOneUserDTOAdmin = userServiceProxy.getOneUser(projectAdmins.getAdminId()).getBody();
+                        if(displayMyProjectsDTO != null) {
+                           displayOneUserDTOList.add(displayOneUserDTOAdmin);
+                        }
+                    }
+                    projectDisplayDTO.setProjectAdmins(displayOneUserDTOList);
+
+                    Optional<ProjectClient> optionalProjectClient= projectClientsRepository.getProjectClient(project);
+                    projectDisplayDTO.setProjectClient(optionalProjectClient.get());
 
                     adminProjects.add(projectDisplayDTO);
                 }
@@ -99,15 +107,18 @@ public class ProjectUserServiceImpl implements ProjectUserService {
                     projectDisplayDTO.setProjectStartDate(optionalProject.get().getProjectStartDate());
                     projectDisplayDTO.setProjectEndDate(optionalProject.get().getProjectEndDate());
                     projectDisplayDTO.setProjectDescription(optionalProject.get().getProjectDescription());
-//
-//                    ProjectClient projectClient = new ProjectClient();
-//                    projectClient.setClientWebUri(optionalProject.get().getProjectClient().getClientWebUri());
-//                    projectClient.setClientMobile(optionalProject.get().getProjectClient().getClientMobile());
-//                    projectClient.setClientEmail(optionalProject.get().getProjectClient().getClientEmail());
-//                    projectClient.setClientName(optionalProject.get().getProjectClient().getClientName());
-//                    projectClient.setClientId(optionalProject.get().getProjectClient().getClientId());
-//
-//                    projectDisplayDTO.setProjectClient(projectClient);
+
+                    List<DisplayOneUserDTO> displayOneUserDTOList = new ArrayList<>();
+                    for(ProjectAdmins projectAdmins : optionalProject.get().getProjectAdmins()){
+                        DisplayOneUserDTO displayOneUserDTOAdmin = userServiceProxy.getOneUser(projectAdmins.getAdminId()).getBody();
+                        if(displayMyProjectsDTO != null) {
+                            displayOneUserDTOList.add(displayOneUserDTOAdmin);
+                        }
+                    }
+                    projectDisplayDTO.setProjectAdmins(displayOneUserDTOList);
+
+                    Optional<ProjectClient> optionalProjectClient= projectClientsRepository.getProjectClient(project);
+                    projectDisplayDTO.setProjectClient(optionalProjectClient.get());
 
                     List<ProjectTasks> projectTasksList = projectTasksRepository.getUserTasks(project);
                     List<TaskDisplayDTO> taskDisplayDTOS = new ArrayList<>();
@@ -153,14 +164,17 @@ public class ProjectUserServiceImpl implements ProjectUserService {
                     projectDisplayDTO.setProjectEndDate(optionalProject.get().getProjectEndDate());
                     projectDisplayDTO.setProjectDescription(optionalProject.get().getProjectDescription());
 
-//                    ProjectClient projectClient = new ProjectClient();
-//                    projectClient.setClientWebUri(optionalProject.get().getProjectClient().getClientWebUri());
-//                    projectClient.setClientMobile(optionalProject.get().getProjectClient().getClientMobile());
-//                    projectClient.setClientEmail(optionalProject.get().getProjectClient().getClientEmail());
-//                    projectClient.setClientName(optionalProject.get().getProjectClient().getClientName());
-//                    projectClient.setClientId(optionalProject.get().getProjectClient().getClientId());
-//
-//                    projectDisplayDTO.setProjectClient(projectClient);
+                    List<DisplayOneUserDTO> displayOneUserDTOList = new ArrayList<>();
+                    for(ProjectAdmins projectAdmins : optionalProject.get().getProjectAdmins()){
+                        DisplayOneUserDTO displayOneUserDTOAdmin = userServiceProxy.getOneUser(projectAdmins.getAdminId()).getBody();
+                        if(displayMyProjectsDTO != null) {
+                            displayOneUserDTOList.add(displayOneUserDTOAdmin);
+                        }
+                    }
+                    projectDisplayDTO.setProjectAdmins(displayOneUserDTOList);
+
+                    Optional<ProjectClient> optionalProjectClient= projectClientsRepository.getProjectClient(project);
+                    projectDisplayDTO.setProjectClient(optionalProjectClient.get());
 
                     List<ProjectTasks> projectTasksList = projectTasksRepository.getUserTasks(project);
                     List<TaskDisplayDTO> taskDisplayDTOS = new ArrayList<>();

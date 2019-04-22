@@ -18,7 +18,7 @@ public class ProjectDisplayDTO {
     @JsonFormat (shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
     private Date projectEndDate;
     private String projectDescription;
-    private List<ProjectAdmins> projectAdmins = new ArrayList<>();
+    private List<DisplayOneUserDTO> projectAdmins = new ArrayList<>();
     private List<TaskDisplayDTO> projectTasks = new ArrayList<>();
     private List<ProjectTecnologies> tecnologies = new ArrayList<>();
     private ProjectClient projectClient;
@@ -66,11 +66,11 @@ public class ProjectDisplayDTO {
         this.projectDescription = projectDescription;
     }
 
-    public List<ProjectAdmins> getProjectAdmins() {
+    public List<DisplayOneUserDTO> getProjectAdmins() {
         return projectAdmins;
     }
 
-    public void setProjectAdmins(List<ProjectAdmins> projectAdmins) {
+    public void setProjectAdmins(List<DisplayOneUserDTO> projectAdmins) {
         this.projectAdmins = projectAdmins;
     }
 

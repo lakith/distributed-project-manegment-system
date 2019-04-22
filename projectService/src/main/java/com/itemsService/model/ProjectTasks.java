@@ -38,7 +38,17 @@ public class ProjectTasks {
     @JsonIgnore
     private Project project;
 
+    private boolean taskStatus = false;
+
     public ProjectTasks() {
+    }
+
+    public boolean isTaskStatus() {
+        return taskStatus;
+    }
+
+    public void setTaskStatus(boolean taskStatus) {
+        this.taskStatus = taskStatus;
     }
 
     public int getProjectTaskId() {

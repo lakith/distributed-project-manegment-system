@@ -2,6 +2,7 @@ spring:
   application:
     name: netflix-zuul-api-gateway-server
 
+
 server:
   port: 8765
 
@@ -44,7 +45,6 @@ hystrix:
         isolation:
           thread:
             timeoutInMilliseconds: 50000
-
 
 #logging:
 #  level:

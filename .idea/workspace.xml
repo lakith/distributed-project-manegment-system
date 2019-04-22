@@ -2,73 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b0fd7caa-61dd-411d-8ae0-3af4255d6225" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectAdminsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/TasksController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/AdminDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/AdminDevProjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/AdminProjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/AdminProjectsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/DevAdminProjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/DevProjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/DevProjectsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/DisplayMyProjectsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/MyProjectsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ProjectDisplayDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ProjectUserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/TaskDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/TaskDevDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/TaskDisplayDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/controller/UserProjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/AdminDevProjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/AdminProjectsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/DevProjectsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/MyProjectsDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/Project.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/ProjectAdmins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/ProjectTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/ProjectTecnologies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/ProjectUserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/TaskDev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/AdminProjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/DevAdminProjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/DevProjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/repository/AdminProjectsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/repository/DevAdminProjectsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/repository/DevProjectsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/UserProjectsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/impl/UserProjectServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/configuration/AuthorizationServerConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/configuration/AuthorizationServerConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/configuration/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/configuration/WebSecurityConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/AuthUserDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/AuthUserDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/authenticationServer/src/main/java/com/itemsharing/authorization/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netflix-zuul-api-gateway-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/netflix-zuul-api-gateway-server/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/proxy/UserServiceProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/proxy/UserServiceProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectAdminsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectAdminsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ProjectDisplayDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ProjectDisplayDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectClientsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectClientsRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectTasksRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectTasksRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/TaskDevRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/TaskDevRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectAdminsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectAdminsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectTasksService.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectTasksService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectAdminsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectAdminsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectTasksServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectTasksServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/controller/ProjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/controller/ProjectController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/proxy/UserServiceProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/proxy/UserServiceProxy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/repository/ProjectAdminsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/repository/ProjectAdminsRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/repository/ProjectTasksRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/repository/ProjectTasksRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/service/ProjectAdminsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/service/ProjectAdminsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/model/ProjectClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/model/ProjectClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/model/ProjectTasks.class" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/model/ProjectTasks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/repository/ProjectClientsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/repository/ProjectClientsRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/service/ProjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/service/ProjectService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/service/ProjectTasksService.class" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/service/ProjectTasksService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/service/impl/ProjectAdminsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/service/impl/ProjectAdminsServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/service/impl/ProjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/service/impl/ProjectServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/service/impl/ProjectTasksServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/service/impl/ProjectTasksServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/userService/target/classes/com/itemsSharing/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/userService/target/classes/com/itemsSharing/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/service/impl/ProjectUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/projectService/target/classes/com/itemsService/service/impl/ProjectUserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/userService/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/userService/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/userService/target/classes/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -94,64 +53,87 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/Project.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="125" column="38" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3208#3209#0" expanded="true" />
+                <element signature="e#3267#3268#0" expanded="true" />
+                <element signature="e#3317#3318#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="706">
+              <caret line="173" column="78" selection-start-line="173" selection-start-column="78" selection-end-line="173" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1555770632672" expanded="true" signature="9697:9699" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ProjectDisplayDTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="68" column="55" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1950#1951#0" expanded="true" />
+                <element signature="e#2025#2026#0" expanded="true" />
+                <element signature="e#2075#2076#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+            <state relative-caret-position="220">
+              <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1657#1658#0" expanded="true" />
+                <element signature="e#1714#1715#0" expanded="true" />
+                <element signature="e#1800#1801#0" expanded="true" />
+                <element signature="e#1855#1856#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectUserController.java">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectAdmins.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectUserService.java">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectAdminsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectAdminsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47">
-              <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectTasksServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="289">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,37 +142,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1555408270394" expanded="true" signature="8625:9303" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/TasksController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectTasksService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="-165">
+              <caret line="180" column="75" selection-start-line="180" selection-start-column="75" selection-end-line="180" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,15 +154,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/TaskDTO.java">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectClientsRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-                <element signature="e#1186#1187#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -234,16 +193,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectAdminsController.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/DevProjects.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/model/AdminProjects.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/ProjectUserDTO.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/Project.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/ProjectAdmins.java" />
-        <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/ProjectTasks.java" />
         <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/ProjectTecnologies.java" />
         <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/TaskDev.java" />
-        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectRepository.java" />
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectAdminsRepository.java" />
         <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/repository/DevAdminProjects.java" />
         <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/repository/UserRepository.java" />
@@ -254,9 +205,6 @@
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/TaskDTO.java" />
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/TaskDev.java" />
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectTasksService.java" />
-        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectController.java" />
-        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectService.java" />
-        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java" />
         <option value="$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/service/UserProjectsService.java" />
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/User.java" />
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/AdminProjects.java" />
@@ -269,7 +217,6 @@
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/AdminDevProjects.java" />
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/proxy/UserServiceProxy.java" />
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/TaskDevRepository.java" />
-        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ProjectDisplayDTO.java" />
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/DisplayMyProjectsDTO.java" />
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/AdminProjectsDTO.java" />
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/TaskDisplayDTO.java" />
@@ -284,15 +231,27 @@
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectAdminsServiceImpl.java" />
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/TasksController.java" />
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectTasksServiceImpl.java" />
+        <option value="$PROJECT_DIR$/userService/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectTasks.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectClientsRepository.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectClient.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/Project.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/AsminDisplayDTO.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ProjectDisplayDTO.java" />
         <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectService.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectController.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectRepository.java" />
+        <option value="$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1442" />
-    <option name="y" value="87" />
-    <option name="width" value="1040" />
-    <option name="height" value="735" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -300,6 +259,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -361,6 +321,36 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="itemsService" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="projectService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itemsService" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="projectService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itemsService" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="distributed" type="462c0819:PsiDirectoryNode" />
+              <item name="projectService" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itemsService" type="462c0819:PsiDirectoryNode" />
               <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -384,56 +374,10 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="userService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="userService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="userService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="userService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="userService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itemsSharing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="distributed" type="b2602c69:ProjectViewProjectNode" />
-              <item name="distributed" type="462c0819:PsiDirectoryNode" />
-              <item name="userService" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="itemsSharing" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -444,12 +388,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555411044153" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555849048614" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../flutter/flutter_course" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -495,7 +441,7 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.2920168" />
+    <option name="contentProportion" value="0.21638656" />
   </component>
   <component name="RunManager" selected="Spring Boot.ProjectServiceApplication">
     <configuration name="UserServiceApplication#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/UserServiceApplication.http">
@@ -612,12 +558,17 @@
       <workItem from="1554973330830" duration="1585000" />
       <workItem from="1555062307316" duration="16404000" />
       <workItem from="1555129489789" duration="36415000" />
-      <workItem from="1555226349880" duration="36932000" />
+      <workItem from="1555226349880" duration="39834000" />
+      <workItem from="1555476006143" duration="1627000" />
+      <workItem from="1555572403823" duration="61000" />
+      <workItem from="1555686538405" duration="74000" />
+      <workItem from="1555686977539" duration="7075000" />
+      <workItem from="1555733541762" duration="8915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166119000" />
+    <option name="totallyTimeSpent" value="186773000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -629,10 +580,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1040" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2887755" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21860817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -648,14 +598,15 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.5351882" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.18106312" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.18003273" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32733223" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.31096563" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.5008183" />
+      <window_info anchor="bottom" id="Flutter Performance" order="16" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -666,6 +617,8 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="Flutter Inspector" order="10" />
+      <window_info anchor="right" id="Flutter Outline" order="11" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -916,363 +869,495 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>52</line>
+          <line>56</line>
           <properties />
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>53</line>
+          <line>57</line>
           <properties />
           <option name="timeStamp" value="65" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>54</line>
+          <line>58</line>
           <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>60</line>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>62</line>
+          <line>66</line>
           <properties />
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>61</line>
+          <line>65</line>
           <properties />
           <option name="timeStamp" value="70" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>59</line>
+          <line>63</line>
           <properties />
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>58</line>
+          <line>62</line>
           <properties />
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>63</line>
+          <line>67</line>
           <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>66</line>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>70</line>
+          <line>74</line>
           <properties />
           <option name="timeStamp" value="75" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>73</line>
+          <line>77</line>
           <properties />
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>77</line>
-          <properties />
-          <option name="timeStamp" value="77" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>85</line>
+          <line>93</line>
           <properties />
           <option name="timeStamp" value="78" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>83</line>
+          <line>91</line>
           <properties />
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>89</line>
+          <line>97</line>
           <properties />
           <option name="timeStamp" value="108" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>90</line>
+          <line>98</line>
           <properties />
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>93</line>
+          <line>101</line>
           <properties />
           <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>97</line>
+          <line>105</line>
           <properties />
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>99</line>
+          <line>107</line>
           <properties />
           <option name="timeStamp" value="112" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>111</line>
+          <line>122</line>
           <properties />
           <option name="timeStamp" value="113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>112</line>
+          <line>123</line>
           <properties />
           <option name="timeStamp" value="114" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>115</line>
+          <line>126</line>
           <properties />
           <option name="timeStamp" value="115" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>114</line>
+          <line>125</line>
           <properties />
           <option name="timeStamp" value="116" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>116</line>
+          <line>127</line>
           <properties />
           <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>118</line>
+          <line>129</line>
           <properties />
           <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>121</line>
+          <line>132</line>
           <properties />
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>122</line>
+          <line>133</line>
           <properties />
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>124</line>
+          <line>135</line>
           <properties />
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>125</line>
+          <line>136</line>
           <properties />
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>127</line>
+          <line>138</line>
           <properties />
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>128</line>
+          <line>139</line>
           <properties />
           <option name="timeStamp" value="124" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>131</line>
+          <line>142</line>
           <properties />
           <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>132</line>
+          <line>143</line>
           <properties />
           <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>137</line>
+          <line>148</line>
           <properties />
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>138</line>
+          <line>149</line>
           <properties />
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>143</line>
+          <line>154</line>
           <properties />
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>144</line>
+          <line>155</line>
           <properties />
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>146</line>
+          <line>157</line>
           <properties />
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>147</line>
+          <line>158</line>
           <properties />
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>149</line>
+          <line>160</line>
           <properties />
           <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>152</line>
+          <line>163</line>
           <properties />
           <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>151</line>
+          <line>162</line>
           <properties />
           <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>164</line>
+          <line>178</line>
           <properties />
           <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>166</line>
+          <line>180</line>
           <properties />
           <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>168</line>
+          <line>182</line>
           <properties />
           <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>170</line>
+          <line>184</line>
           <properties />
           <option name="timeStamp" value="139" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>172</line>
+          <line>186</line>
           <properties />
           <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>174</line>
+          <line>188</line>
           <properties />
           <option name="timeStamp" value="141" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>181</line>
+          <line>195</line>
           <properties />
           <option name="timeStamp" value="142" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>179</line>
+          <line>193</line>
           <properties />
           <option name="timeStamp" value="143" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>177</line>
+          <line>191</line>
           <properties />
           <option name="timeStamp" value="144" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>175</line>
+          <line>189</line>
           <properties />
           <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>187</line>
+          <line>201</line>
           <properties />
           <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>190</line>
+          <line>204</line>
           <properties />
           <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>191</line>
+          <line>205</line>
           <properties />
           <option name="timeStamp" value="149" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>194</line>
+          <line>208</line>
           <properties />
           <option name="timeStamp" value="150" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>195</line>
+          <line>209</line>
           <properties />
           <option name="timeStamp" value="151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>198</line>
+          <line>212</line>
           <properties />
           <option name="timeStamp" value="152" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java</url>
-          <line>200</line>
+          <line>214</line>
           <properties />
           <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>190</line>
+          <properties />
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>191</line>
+          <properties />
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>192</line>
+          <properties />
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>193</line>
+          <properties />
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>194</line>
+          <properties />
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>195</line>
+          <properties />
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>197</line>
+          <properties />
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>203</line>
+          <properties />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>206</line>
+          <properties />
+          <option name="timeStamp" value="163" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>207</line>
+          <properties />
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>208</line>
+          <properties />
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>209</line>
+          <properties />
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>211</line>
+          <properties />
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>212</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>213</line>
+          <properties />
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>215</line>
+          <properties />
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>216</line>
+          <properties />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>217</line>
+          <properties />
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>220</line>
+          <properties />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>219</line>
+          <properties />
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>221</line>
+          <properties />
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>222</line>
+          <properties />
+          <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java</url>
+          <line>223</line>
+          <properties />
+          <option name="timeStamp" value="177" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1283,117 +1368,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ProjectUserDTO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/ProjectTasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/MyProjectsDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-            <element signature="e#924#925#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-            <element signature="e#1140#1141#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1440#1441#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1576#1577#0" expanded="true" />
-            <element signature="e#1638#1639#0" expanded="true" />
-            <element signature="e#1684#1685#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/DevProjectsDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#254#255#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/AdminDevProjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#155#156#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/AdminProjectsDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/AdminProjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/DevProjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/DevProjectsDTO.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/AdminDevProjects.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1440,52 +1414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ProjectDisplayDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1006#1007#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1199#1200#0" expanded="true" />
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1299#1300#0" expanded="true" />
-            <element signature="e#1340#1341#0" expanded="true" />
-            <element signature="e#1379#1380#0" expanded="true" />
-            <element signature="e#1441#1442#0" expanded="true" />
-            <element signature="e#1497#1498#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1573#1574#0" expanded="true" />
-            <element signature="e#1631#1632#0" expanded="true" />
-            <element signature="e#1683#1684#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1769#1770#0" expanded="true" />
-            <element signature="e#1837#1838#0" expanded="true" />
-            <element signature="e#1897#1898#0" expanded="true" />
-            <element signature="e#1950#1951#0" expanded="true" />
-            <element signature="e#1986#1987#0" expanded="true" />
-            <element signature="e#2057#2058#0" expanded="true" />
-            <element signature="e#2107#2108#0" expanded="true" />
-            <element signature="e#2160#2161#0" expanded="true" />
-            <element signature="e#2195#2196#0" expanded="true" />
-            <element signature="e#2265#2266#0" expanded="true" />
-            <element signature="e#2313#2314#0" expanded="true" />
-            <element signature="e#2369#2370#0" expanded="true" />
-            <element signature="e#2403#2404#0" expanded="true" />
-            <element signature="e#2475#2476#0" expanded="true" />
-            <element signature="e#2521#2522#0" expanded="true" />
-            <element signature="e#2568#2569#0" expanded="true" />
-            <element signature="e#2604#2605#0" expanded="true" />
-            <element signature="e#2669#2670#0" expanded="true" />
-            <element signature="e#2719#2720#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/userService/src/main/java/com/itemsSharing/dto/Project.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1504,13 +1432,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/TaskDevRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/AdminProjectsDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1522,21 +1443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/TaskDisplayDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#831#832#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1610,28 +1516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectTasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="38" column="15" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1592#1593#0" expanded="true" />
-            <element signature="e#1626#1627#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/TaskDevServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1639,27 +1523,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/TaskDev.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectTasksRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="65" column="9" selection-start-line="61" selection-start-column="7" selection-end-line="65" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1677,16 +1544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/proxy/UserServiceProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1730,6 +1587,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="uml://JAVA/com.itemsService.service.impl.ProjectUserServiceImpl">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.itemsService.service.impl.ProjectUserServiceImpl</OriginalElement>
+          <nodes>
+            <node x="0.0" y="0.0">javax.transaction.Transactional</node>
+            <node x="304.0" y="0.0">org.springframework.stereotype.Service</node>
+            <node x="128.0" y="128.0">com.itemsService.service.impl.ProjectUserServiceImpl</node>
+            <node x="139.0" y="0.0">com.itemsService.service.ProjectUserService</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.itemsService.service.impl.ProjectUserServiceImpl" target="org.springframework.stereotype.Service">
+              <point x="56.33333333333334" y="-14.5" />
+              <point x="267.83333333333337" y="54.0" />
+              <point x="346.5" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.itemsService.service.impl.ProjectUserServiceImpl" target="com.itemsService.service.ProjectUserService">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.itemsService.service.impl.ProjectUserServiceImpl" target="javax.transaction.Transactional">
+              <point x="-56.33333333333334" y="-14.5" />
+              <point x="155.16666666666666" y="54.0" />
+              <point x="59.5" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="195.0" y="-55.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectAdminsService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1739,14 +1634,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectAdminsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
+        <state relative-caret-position="306">
           <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectTasksServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/TasksController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectTasksService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/TaskDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
+        <state relative-caret-position="306">
           <caret line="22" column="33" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1756,52 +1681,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectTasksService.java">
+    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/java/com/itemsService/zuul/NetflixZuulApiGatewayServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="119">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/userService/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectAdminsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/TaskDisplayDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/TasksController.java">
+    <entry file="file://$PROJECT_DIR$/netflix-zuul-api-gateway-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="24">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectTasksServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/TaskDev.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectController.java">
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectTasks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+        <state relative-caret-position="170">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1122#1123#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+            <element signature="e#1252#1253#0" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#1626#1627#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectUserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="22" column="42" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
+        <state relative-caret-position="233">
+          <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1818,13 +1766,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/TaskDevRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="49" column="7" lean-forward="true" selection-start-line="49" selection-start-column="7" selection-end-line="49" selection-end-column="7" />
+        <state relative-caret-position="102">
+          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/AsminDisplayDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/proxy/UserServiceProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1555408270394" expanded="true" signature="8625:9303" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectClientsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectAdmins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/dto/ProjectDisplayDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="68" column="55" selection-start-line="68" selection-start-column="55" selection-end-line="68" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1950#1951#0" expanded="true" />
+            <element signature="e#2025#2026#0" expanded="true" />
+            <element signature="e#2075#2076#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="173" column="78" selection-start-line="173" selection-start-column="78" selection-end-line="173" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1555770632672" expanded="true" signature="9697:9699" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/ProjectClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/model/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="125" column="38" selection-start-line="125" selection-start-column="38" selection-end-line="125" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3208#3209#0" expanded="true" />
+            <element signature="e#3267#3268#0" expanded="true" />
+            <element signature="e#3317#3318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/controller/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="51" column="35" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+            <element signature="e#1714#1715#0" expanded="true" />
+            <element signature="e#1800#1801#0" expanded="true" />
+            <element signature="e#1855#1856#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/ProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/repository/ProjectRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectService/src/main/java/com/itemsService/service/impl/ProjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="180" column="75" selection-start-line="180" selection-start-column="75" selection-end-line="180" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

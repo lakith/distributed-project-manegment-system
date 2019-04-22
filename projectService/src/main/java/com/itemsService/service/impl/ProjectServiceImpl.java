@@ -158,7 +158,72 @@ public class ProjectServiceImpl implements ProjectService {
 
     @Override
     public ResponseEntity<?> gellAllProjects() {
-        return new ResponseEntity<>(projectRepository.findAll(),HttpStatus.OK);
+        List<Project> projectList =  projectRepository.findAll();
+        if(projectList.isEmpty()){
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        } else {
+            return new ResponseEntity<>(projectList,HttpStatus.OK);
+        }
+    }
+
+    @Override
+    public ResponseEntity<?> completedProjects() {
+        List<Project> projectList =  projectRepository.getCompletedProjects();
+        if(projectList.isEmpty()){
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        } else {
+            return new ResponseEntity<>(projectList,HttpStatus.OK);
+        }
+    }
+
+    @Override
+    public ResponseEntity<?> PendingProjects() {
+        List<Project> projectList =  projectRepository.getPendingProjects();
+        if(projectList.isEmpty()){
+            return new ResponseEntity<>(HttpStatus.NO_CONTENT);
+        } else {
+            return new ResponseEntity<>(projectList,HttpStatus.OK);
+        }
+    }
+
+    @Override
+    public ResponseEntity<?> addprojectAdmins(int projectId, int userId) {
+        Optional<Project> optionalProject = projectRepository.findById(projectId);
+        if(!optionalProject.isPresent()){
+            return new ResponseEntity<>(new ResponseModel("Invalid Project id",false),HttpStatus.BAD_REQUEST);
+        } else {
+            Project project = optionalProject.get();
+            List<ProjectAdmins> projectAdminsList = new ArrayList<>();
+
+            if(!project.getProjectAdmins().isEmpty()){
+                for(ProjectAdmins projectAdmins : project.getProjectAdmins()){
+                    if(projectAdmins.getAdminId() == userId){
+                        return new ResponseEntity<>(new ResponseModel("Already A Admin",false),HttpStatus.BAD_REQUEST);
+                    }
+                }
+                projectAdminsList = project.getProjectAdmins();
+            }
+
+            ProjectAdmins projectAdmins = new ProjectAdmins();
+            projectAdmins.setAdminId(userId);
+            projectAdmins.setProject(project);
+            projectAdmins = projectAdminsRepository.save(projectAdmins);
+
+            projectAdminsList.add(projectAdmins);
+            project.setProjectAdmins(projectAdminsList);
+            project = projectRepository.save(project);
+
+            ProjectUserDTO projectUserDTO = new ProjectUserDTO();
+            projectUserDTO.setProjectId(project.getProjectId());
+            projectUserDTO.setUserid(userId);
+
+            ResponseModel responseModel =  userServiceProxy.saveAdmin(projectUserDTO).getBody();
+            if(responseModel.isStatus()){
+                return new ResponseEntity<>(project,HttpStatus.OK);
+            } else {
+                return new ResponseEntity<>(new ResponseModel("invalid User",false),HttpStatus.BAD_REQUEST);
+            }
+        }
     }
 
     public ResponseEntity<?> buildFallbackUser(ProjectDTO projectDTO, Principal principal){
